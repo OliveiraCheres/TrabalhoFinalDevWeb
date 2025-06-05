@@ -1,0 +1,48 @@
+{
+  "canetas": [
+    {
+      "id": "cd2a",
+      "nome": "Pilot Custom 74",
+      "marca": "Pilot",
+      "preco": 450,
+      "quantidadeEstoque": 10,
+      "descricao": "Caneta japonesa de pena flexível",
+      "tamanhoPena": "F",
+      "tipoPena": "X",
+      "tipoCorpo": 2
+    },
+    {
+      "id": "80b0",
+      "nome": "Pilot kakuno",
+      "marca": "pilot",
+      "preco": 100,
+      "quantidadeEstoque": 15,
+      "descricao": "Caneta de construção simples, perfeita para iniciar a jornada no mundo das canetas tinteiro",
+      "tamanhoPena": "EF",
+      "tipoPena": "P",
+      "tipoCorpo": "A"
+    },
+    {
+      "id": "6f23",
+      "nome": "Parker 51 Vacummatic",
+      "marca": "Parker",
+      "preco": 120,
+      "descricao": "Caneta com o antigo sistema de pistão vacummatic exclusivo da marca americana Parker. Descontinuada.",
+      "tamanhoPena": "F",
+      "tipoPena": "P"
+    }
+  ],
+  "tintas": [
+    {
+      "id": "5542",
+      "nome": "Kin's Ink-liquid",
+      "marca": "Kin",
+      "preco": 30,
+      "descricao": "Tinta viscosa ideal para caligrafia chinesa ou canetas de imersão.",
+      "tipoTinta": "W",
+      "cor": 14,
+      "tipoFrasco": "T"
+    }
+  ],
+  "selos": []
+}

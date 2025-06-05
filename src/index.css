@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&display=swap');
+
+:root {
+  
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: #FFF8DC; /* Bege claro */
+  color: #5D4037;           /* Marrom escuro */
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  padding: 0;
+}
+
+input, select, textarea {
+  color: #2e2b28;                /* Texto em marrom escuro */
+  background-color: #FAF0E6;     /* Branco antigo */
+  border: 1px solid #A1887F;     /* Marrom claro no contorno */
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  font-family: 'Cinzel', serif;
+  border-radius: 4px;
+  width: 100%;                   /* ocupa toda a largura do formulário */
+  box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #7a6651; /* Marrom médio para placeholder */
+}
+
+nav a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Great Vibes', cursive;
+  color: #5D4037;
+  margin-bottom: 1rem;
+}
+
+
+button {
+  background-color: #5D4037; /* Marrom escuro */
+  color: #FFF8DC;            /* Bege claro no texto */
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+form {
+  background-color: #FFF8DC;     /* Bege claro */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(161, 136, 127, 0.5); /* sombra marrom suave */
+  max-width: 500px;
+  margin: 2rem auto;             /* centralizado na página */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #A1887F;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #A1887F;
+  color: #FFF8DC;
+}
+
+button:hover {
+  background-color: #4E342E; /* Marrom ainda mais escuro no hover */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #413629;
+    background-color: #cebe78;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
